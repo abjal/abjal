@@ -26,3 +26,5 @@ managedNodeGroups:
 
 ----
 eksctl upgrade nodegroup -f cluster.yaml
+
+eksctl delete cluster --name dev-cluster
